@@ -160,3 +160,4 @@ def send_email(SMTP_SERVER, EMAIL_ACCOUNT, APP_PASSWORD, port, receiver_email, e
 #emails = receive_emails(IMAP_SERVER, EMAIL_ACCOUNT, APP_PASSWORD, start_date='01-Jan-2024', seen="UNSEEN")
 #email_to_eml(email=emails[0], path=path, email_name="test")
 send_email(SMTP_SERVER, EMAIL_ACCOUNT, APP_PASSWORD, port, EMAIL_ACCOUNT, "Тест отправки 1", "vrnviervne", "testSend.docx")
+#123
